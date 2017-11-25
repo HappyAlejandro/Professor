@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    line-height: 1;
+}
+.contenedor{
+    width: 1160px;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+}
+
+header li a:hover {
+    color: #40A0B4;
+    margin-bottom: 3em;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+header{
+     background: #4c6a8e;
+    height: 75px;
+    margin-top: 0px;
+    background: #207cca; /* Old browsers */
+    background: -moz-linear-gradient(top, #207cca 0%, #29beaf 0%, #606e9c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #207cca 0%,#29beaf 0%,#606e9c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #207cca 0%,#29beaf 0%,#606e9c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#606e9c',GradientType=0 ); /* IE6-9 */
+    
+    top: 20px;
+}
+
+header li{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+header li:last-child{
+    margin-right: 200px;
+}
+
+header li a {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: all .5s;
+    padding: 20px 20px 20px 20px;
+}
+
+.cosito{
+    position: relative;
+    margin-right: 0;
+    margin-top: -2px;
+    float: right;
+}
+
+.fondo{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    
+    position:relative;
+	margin-left:100px;
+	margin-top:-800px;
+}
+.fondo computo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    width: 500px;
+   
+}
+
+.fondo logo2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    position: relative;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.fondo descrip{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+     order: 0;
+    flex: 0 1 auto;
+    align-self: flex-end;
+
+    
+   
+}
+
+.contenidoMedio {
+ display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    
+    position: relative;
+    margin-top: -750px
+  
+}
+
+.contenidoMedio personas{
+     order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.contenidoMedio botones{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.contenidoMedio a{
+     border-radius: 70px 75px 75px 75px;
+    font-weight: bold;
+    font-size: 1.3em;
+ 
+    padding: 15px;
+    background: white;
+    color: #679EB1;
+    text-decoration: none;
+    margin-top: 200px;
+}
+
+
+.fondo p{
+    width: 368px;
+  
+    margin-top: 230px;
+    color: white;
+    font-size: 1.3em;
+    
+}
+
+.fondo2{
+    margin-top: 150px;
+}
+
+.fondo a{
+    border-radius: 70px 75px 75px 75px;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 15px;
+    background: white;
+    color: #679EB1;
+    text-decoration: none;
+    
+    
+   
+    
+}
+
+.fondo logo2{
+  
+    margin-top: 400px;
+}
+
+
+
+
+/*/.fondo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.fondo computo{
+    order: 1;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+
+/*/
